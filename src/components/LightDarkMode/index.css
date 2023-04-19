@@ -1,0 +1,40 @@
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.light-mode{
+    background-color: #ffffff;
+}
+.dark-mode{
+    background-color: #000000;
+}
+.change-text {
+  font-family: 'Roboto';
+}
+.dark-mode-text{
+    color: #ffffff;
+}
+.light-mode-text{
+    color: #000000;
+}
+.button {
+  font-family: 'Roboto';
+  color: black;
+  padding: 8px 14px 8px 14px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
